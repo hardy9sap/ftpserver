@@ -9,16 +9,12 @@
 
 
 
-一、开发环境
+# 开发环境
     Windows 10(64位)
     Python(3.7.2)
     JetBrains PyCharm(2018.2.2 x64)
     
-二、功能实现
-特别说明：
-    因上传时作业压缩包不能超过5M，只有小量数据：
-        get pic.jpg
-        put linux.pdf
+# 功能实现
 
 1. 客户端的一致性校验
 
@@ -86,7 +82,7 @@
     语法：
         setcon 10
 
-三、启动方式
+# 启动方式
 1. PyCharm中
     1. 首先启动服务端：右击ftpserver/Server/bin/start.py ----> run
     2. 再启动客户端：右击ftpserver/Client/bin/start.py ----> run
@@ -100,8 +96,8 @@
         1. 首先启动服务端：python3 start.py
         2. 再启动客户端：pythhon3 start.py 
         
-四、用户登录信息
+# 用户登录信息
 
-五、程序运行效果
+# 程序运行效果
 
-六、常见问题
+# 常见问题
