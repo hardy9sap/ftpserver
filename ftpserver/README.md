@@ -39,29 +39,29 @@
         
 6. 允许用户在ftp server上随意切换目录
     使用语法：
-        1. cd  直接切换到家目录
-        2. cd ~  直接切换到家目录
-        3. cd .   切换到当前目录
-        4. cd ..   切换到上一级目录
-        5. cd [directory]  切换到当前目录下的指定目录
+        - cd  直接切换到家目录
+        - cd ~  直接切换到家目录
+        - cd .   切换到当前目录
+        - cd ..   切换到上一级目录
+        - cd [directory]  切换到当前目录下的指定目录
         
 7. 允许用户查看自己家目录下的文件
     使用语法：
-        1. ls   查看当前目录下所有的文件
-        2. ls [directory]  查看当前目录下的目录中的文件
+        - ls   查看当前目录下所有的文件
+        - ls [directory]  查看当前目录下的目录中的文件
         
 8. 允许用户上传和下载，保护文件的一致性（MD5）
     使用语法：
         下载
-        1. get [file]
-            get netease.exe
-            get linux.pdf
-            get pic.jpg
+            - get [file]
+            - get netease.exe
+            - get linux.pdf
+            - get pic.jpg
             
         上传：使用前提，必须切回家目录
-        1. put [file]
-            put pdf.zip
-            put pycharm.exe
+            - put [file]
+            - put pdf.zip
+            - put pycharm.exe
             
 9. 文件上传、下载过程中显示进度条
     形式：
